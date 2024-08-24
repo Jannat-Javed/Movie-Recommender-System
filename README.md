@@ -1,18 +1,6 @@
-## Movie Recommender System
+##  Content Based Movie Recommender System
 
-This repository contains the code and resources for a movie recommender system built with Python. The system provides movie recommendations based on user input and displays detailed information about movies.
-
-## Overview
-
-The Movie Recommender System suggests movies to users based on their preferences. It uses machine learning algorithms to generate recommendations and a web application built with Streamlit to interact with users.
-
-## Features
-
-Movie Recommendations: Suggests movies based on user preferences or a given movie.
-
-Movie Details: Displays detailed information about recommended movies, including posters.
-
-Interactive Interface: A web application built using Streamlit for a user-friendly experience.
+The Content-Based Movie Recommender System is designed to provide personalized movie recommendations by analyzing the content of movies and matching them to user preferences. Using the TMDB Movie Metadata dataset, the system considers features such as genre, keywords, cast, and crew to generate a list of movies similar to those a user has enjoyed in the past. The model processes and vectorizes these features to compute similarity scores, ensuring that the recommendations align closely with the user’s tastes. The system is built in Streamlit, offering an interactive interface where users can select a movie and receive ten similar movie recommendations, each displayed with its corresponding poster. This project is ideal for users who want tailored movie suggestions based on their viewing history and preferences.
 
 ### Dataset
 
